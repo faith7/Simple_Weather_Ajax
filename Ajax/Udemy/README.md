@@ -35,7 +35,7 @@ var apiKey = config.MY_KEY;
  
 #### 5. Type in city name and the related weather information will pop up below.
 
-### Application result view
+### Application result views
 ![view1](https://github.com/faith7/Simple_Weather_Ajax/blob/master/Ajax/Udemy/img/result1.png) 
 ![view2](https://github.com/faith7/Simple_Weather_Ajax/blob/master/Ajax/Udemy/img/result2.png)
 ![view3](https://github.com/faith7/Simple_Weather_Ajax/blob/master/Ajax/Udemy/img/result3.png)
