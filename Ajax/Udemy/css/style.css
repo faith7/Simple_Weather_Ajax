@@ -1,0 +1,104 @@
+header {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto auto auto;
+  color: blue;
+  padding: 1.3em;
+  background: rgba(191, 191, 223, 0.733);
+}
+
+.findout {
+  display: relative;
+  position: right;
+  font-style: italic;
+  color: rgb(4, 28, 43);
+  position: relative;
+  animation: cloudy 7s infinite cubic-bezier(0.05, 0.18, 0.72, 0.88);
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cloudy {
+  0% {
+    transform: translate(-10px, 0px);
+  }
+
+  100% {
+    transform: translate(50px, 0px);
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 0;
+  text-align: center;
+  background-color: white;
+  padding: 3% 0;
+  background: url(../img/weather.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+
+.search {
+  margin: auto;
+  margin-top: 5%;
+}
+
+.search > label {
+  margin-top:5em;
+  font-size: 1.5em;
+}
+
+#city {
+  font-size: 1.3em;
+  text-align: center;
+  width: 20%;
+}
+
+.button {
+  color: white;
+  background: rgb(1, 25, 53);
+  font-size: 1em;
+  padding: 0.3em;
+  /* font-size:1.05em; */
+}
+
+.load{
+  margin-top:5%;
+}
+
+.weather{
+ 
+  padding: 30px;
+  border: 1px solid #ccc;
+  width: 500px;
+  margin: 100px auto auto;
+  background-color: rgb(7, 88, 38, .5);
+  box-shadow: 2px 2px 3px #ccc;
+  color: white;
+  box-sizing: border-box;
+  display: none;
+  font-weight: bolder;
+}
+
+.weatherCity{
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.weatherDescription{
+ float: left;
+ font-size: 1.5em;
+ margin-bottom: 30px;
+}
+
+.weatherTemperature {
+ float: right;
+ font-size:1.5em;
+ margin-bottom: 30px;
+}
+
